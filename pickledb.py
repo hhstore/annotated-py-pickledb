@@ -211,6 +211,10 @@ class pickledb(object):
         else:
             return 0
 
+    ############################################################
+    #                        底层接口
+    ############################################################
+
     def deldb(self):
         ''' 清空数据库
         Delete everything from the database'''
